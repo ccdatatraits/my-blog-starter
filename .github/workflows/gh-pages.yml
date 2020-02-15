@@ -35,7 +35,6 @@ jobs:
       
       - name: No Jekyll
         run: |
-          buildcommand
           touch ./public/.nojekyll
 
       - name: Deploy
